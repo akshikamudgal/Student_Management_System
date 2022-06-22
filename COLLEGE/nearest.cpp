@@ -20,6 +20,7 @@ int nearest(int n)
         if(check(i))
         {
             out1=i;
+            break;
         }
     }
     for(int i=n+1;i<n+20;i++)
@@ -27,6 +28,7 @@ int nearest(int n)
         if(check(i))
         {
             out2=i;
+            break;
         }
     }
     int a=n-out1;
